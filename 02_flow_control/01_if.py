@@ -40,4 +40,19 @@ else:
 # ! -> not
 print("Logical operators")
   
+has_license = True 
+
+age = 18
+if age >= 18 and has_license:
+  print("You can drive")
+else:
+  print("Call the police")
+
+# on some rare countries
+
+age = 16
+if age >= 18 or has_license:
+  print("You can drive")
+else:
+  print("Call the police")
 
