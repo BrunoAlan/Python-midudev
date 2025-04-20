@@ -1,6 +1,10 @@
 
 # Conditional statements
 
+
+import os
+os.system("clear")
+
 print("Simple if statement")
 
 age = 18
@@ -30,5 +34,10 @@ else:
   print("Fail")
 
 
+## Javascript opertors in Python
+# && -> and
+# || -> or
+# ! -> not
+print("Logical operators")
   
 
