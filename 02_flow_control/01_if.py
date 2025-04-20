@@ -2,8 +2,8 @@
 # Conditional statements
 
 
-import os
-os.system("clear")
+from os import system
+if system("clear") != 0: system("cls")
 
 print("Simple if statement")
 
