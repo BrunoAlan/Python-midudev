@@ -22,7 +22,7 @@ print(age)
 name:str = 'Alan'
 print(type(name)) # <class 'str'>
 
-# print f string7
+# print f string
 print(f"{my_name} is {age - 3} years old")
 
 
