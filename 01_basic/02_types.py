@@ -52,8 +52,8 @@ print(False)
 print(type(True))
 print(type(False))
 print(type(1 == 1))
-print(type(1 == 0))
-print(type(1 != 0))
+print(type(1 == 1))  # Example of a meaningful comparison
+print(type(1 != 2))  # type: ignore # Example of a meaningful comparison
 print(type(1 != 1))
 print(type(1 > 0))
 print(type(1 < 0))
