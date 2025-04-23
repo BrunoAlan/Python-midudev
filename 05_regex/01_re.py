@@ -108,3 +108,13 @@ pattern = "python"
 
 found_python = re.findall(pattern, text, re.IGNORECASE)
 print(found_python)
+
+# Reemplazar texto .sub()
+
+text = "Hola mundo, hola de nuevo!"
+pattern = "Hola"
+replacement = "adios"
+
+new_text = re.sub(pattern, replacement, text, re.IGNORECASE)
+
+print(new_text)
