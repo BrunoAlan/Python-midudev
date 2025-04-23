@@ -89,3 +89,22 @@ matches = re.finditer(pattern, text)
 
 for match in matches:
     print(f"{match.group()} {match.start()}-{match.end()}")
+
+
+# Modificadores
+
+# Encuentra la primera ocurrencia de la palabra "IA" en el siguiente texto
+# e indica en que posición empieza y termina la coincidencia.
+text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no está mala. Viva la Ia"
+pattern = "IA"
+
+found_ia = re.findall(pattern, text, re.IGNORECASE)
+print(found_ia)
+
+# EJERCICIO 03
+# Encuentra todas las ocurrencias de la palabra "python" en el siguiente texto, sin distinguir entre mayúsculas y minúsculas.
+text = "Este es el curso de Python de midudev. ¡Suscríbete a python si te gusta este contenido! PYTHON"
+pattern = "python"
+
+found_python = re.findall(pattern, text, re.IGNORECASE)
+print(found_python)
